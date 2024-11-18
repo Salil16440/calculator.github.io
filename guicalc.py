@@ -23,9 +23,13 @@ def click(event):
         screen.set("")
         after_result = False  # Reset the flag
     else:
-        # Clear the screen if a number is pressed after displaying a result
+        # If a number is pressed after displaying a result, clear the entry widget
         if after_result and text.isdigit():
             screen.set("")  # Clear the entry widget
+            after_result = False  # Reset the flag
+        
+        # If an operator is pressed after displaying a result, continue the operation
+        if after_result and not text.isdigit():
             after_result = False  # Reset the flag
         
         # Append the button's text to the entry widget

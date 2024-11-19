@@ -33,3 +33,33 @@ A simple calculator application built using Python's `tkinter` library. This cal
 
    ```bash
    python calculator.py
+## Usage
+
+**Perform Calculations:** Click on numbers and operations to build expressions. Press = to see the result.
+
+**Clear Display:** Press C to clear the current input or result.
+
+**Start New Calculation:** After a result is displayed, simply press a number button to clear the display and start a new calculation.
+
+**Example**
+
+Click *2*, *+*, *3*, and *=*. The display will show *5*.
+
+Press any number to clear the display and begin a new calculation.
+
+## Error Handling
+
+If an invalid input or operation is attempted, an error message will be shown, and the display will reset.
+
+## Contributing
+
+Contributions are welcome! If you have suggestions for improvements or new features, feel free to open an issue or submit a pull request.
+
+## Acknowledgments
+
+Thanks to the Python community for providing resources and support.
+Tkinter documentation for GUI development.
+
+## Contact
+
+For any inquiries, please reach out to **salil.16440@stu.upes.ac.in**.

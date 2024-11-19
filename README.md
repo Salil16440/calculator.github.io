@@ -43,7 +43,7 @@ A simple calculator application built using Python's `tkinter` library. This cal
 
 **Example**
 
-Click *2*, *+*, *3*, and *=*. The display will show *5*.
+Click `2`, `+`, `3`, and `=`. The display will show `5`.
 
 Press any number to clear the display and begin a new calculation.
 
